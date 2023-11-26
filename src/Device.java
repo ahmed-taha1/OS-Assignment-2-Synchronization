@@ -20,6 +20,7 @@ public class Device extends Thread{
 
             // logged in
             System.out.println("- Connection " + connectionNumber + ": " + this.deviceName + " login");
+            Thread.sleep(randomNum);
 
             // doing activity
             preformOnlineActivity(connectionNumber);

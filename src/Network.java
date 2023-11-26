@@ -19,7 +19,7 @@ public class Network {
         remainingSpaces.V();
     }
 
-    public static void main(String[] args){
+    public static void main(String[] args) throws InterruptedException {
         // IO, initializing section
          int maxNumOfConnections, totalNumOfDevices;
 
@@ -43,6 +43,5 @@ public class Network {
         for(Device device : devices) {
             device.start();
         }
-
     }
 }
